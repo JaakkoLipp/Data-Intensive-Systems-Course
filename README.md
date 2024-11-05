@@ -15,4 +15,5 @@ The database used would be changed based on the location.
 
 ### notes:
 Generative AI used to generate sample data and to assist in using mongoDB correctly.
+
 <b>Requires pymongo to be installed.</b>
