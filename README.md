@@ -13,6 +13,6 @@ Any database type is allowed (PostgreSQL, SQLite, MongoDB, SQL Server, etc.)
 - Within the frontend, have the user be able to choose a location and print data from the database based on the chosen location
 The database used would be changed based on the location.
 
-###notes:
+### notes:
 Generative AI used to generate sample data and to assist in using mongoDB correctly.
 <b>Requires pymongo to be installed.</b>
