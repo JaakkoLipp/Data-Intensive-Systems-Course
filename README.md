@@ -16,4 +16,4 @@ The database used would be changed based on the location.
 ### notes:
 Generative AI used to generate sample data and to assist in using mongoDB and sqlite correctly.
 
-<b>Requires pymongo to be installed.</b>
+<b>Requires python3, pymongo, mongodb and sqlite3 to be installed.</b>
