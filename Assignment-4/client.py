@@ -76,9 +76,10 @@ def update_sqlite_user():
     print("User updated in SQLite!")
 
 def update_mongo_user():
-    name = input("Enter name to update: ")
+    old_name = input("Enter current name to update: ")
+    new_name = input("Enter new name: ")
     new_email = input("Enter new email: ")
-    mongo_users.update_one({"name": name}, {"$set": {"email": new_email}})
+    mongo_users.update_one({"name": old_name}, {"$set": {"name": new_name, "email": new_email}})
     print("User updated in MongoDB!")
 
 def view_joined_data():
