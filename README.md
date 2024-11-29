@@ -14,6 +14,6 @@ Any database type is allowed (PostgreSQL, SQLite, MongoDB, SQL Server, etc.)
 The database used would be changed based on the location.
 
 ### notes:
-Generative AI used to generate sample data and to assist in using mongoDB correctly.
+Generative AI used to generate sample data and to assist in using mongoDB and sqlite correctly.
 
 <b>Requires pymongo to be installed.</b>
